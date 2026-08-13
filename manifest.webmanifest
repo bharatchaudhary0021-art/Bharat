@@ -1,0 +1,17 @@
+{
+  "id": "/Bharat/",
+  "name": "LakshyaLoop — SSC Study Planner",
+  "short_name": "LakshyaLoop",
+  "description": "Bilingual SSC CGL and CPO study planner with focus timer, PYQ practice, mock tests, and current affairs.",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "start_url": "/Bharat/",
+  "scope": "/Bharat/",
+  "display": "standalone",
+  "background_color": "#f6f7ff",
+  "theme_color": "#111936",
+  "icons": [
+    { "src": "/Bharat/lakshyaloop-pwa-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Bharat/lakshyaloop-pwa-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -10,6 +10,9 @@
     <link rel="canonical" href="https://bharatchaudhary0021-art.github.io/Bharat/" />
     <link rel="icon" type="image/svg+xml" href="/Bharat/lakshyaloop-icon.svg" />
     <link rel="apple-touch-icon" href="/Bharat/lakshyaloop-icon.svg" />
+    <link rel="manifest" href="/Bharat/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="LakshyaLoop" />
     <meta property="og:title" content="LakshyaLoop | SSC CGL & CPO Study Planner" />
@@ -46,10 +49,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/Bharat/assets/index-DpNQ5gPd.js"></script>
+    <script type="module" crossorigin src="/Bharat/assets/index-DnJpcdkM.js"></script>
     <link rel="stylesheet" crossorigin href="/Bharat/assets/index-C9R8NSgB.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => navigator.serviceWorker.register("/Bharat/sw.js", { scope: "/Bharat/" }).catch(() => undefined));
+      }
+    </script>
   </body>
 </html>
