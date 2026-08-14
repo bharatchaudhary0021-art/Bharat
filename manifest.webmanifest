@@ -11,7 +11,7 @@
   "background_color": "#f6f7ff",
   "theme_color": "#111936",
   "icons": [
-    { "src": "/Bharat/lakshyaloop-pwa-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "/Bharat/lakshyaloop-pwa-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/Bharat/lakshyaloop-infinity-192-v2.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Bharat/lakshyaloop-infinity-512-v2.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
