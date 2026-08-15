@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">LakshyaLoop infinity-loop mark</title>
+  <desc id="desc">A colorful infinity loop representing continuous study progress.</desc>
+  <defs>
+    <linearGradient id="loopA" x1="8" y1="12" x2="88" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f75ff"/><stop offset="0.52" stop-color="#20d7d0"/><stop offset="1" stop-color="#8be1c6"/>
+    </linearGradient>
+    <linearGradient id="loopB" x1="8" y1="84" x2="88" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19c8c6"/><stop offset="0.55" stop-color="#ffae24"/><stop offset="1" stop-color="#ff6b35"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="26" fill="#091631"/>
+  <path d="M10 48C17 22 39 22 48 48S79 74 86 48" fill="none" stroke="url(#loopA)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M10 48C17 74 39 74 48 48S79 22 86 48" fill="none" stroke="url(#loopB)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="48" cy="48" r="5" fill="#fff"/>
+</svg>
